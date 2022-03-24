@@ -5,3 +5,8 @@ resource "azurerm_resource_group" "example" {
   name     = "testrgtf"
   location = "eastus"
 }
+
+resource "azurerm_resource_group" "example" {
+  name     = "testrgtf123"
+  location = "westus"
+}
